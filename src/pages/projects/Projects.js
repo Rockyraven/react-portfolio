@@ -3,9 +3,8 @@ import { ProjectCard } from "../../component";
 import { projects } from "../../db/project-db";
 
 export const Projects = () => {
-  console.log(projects);
   return (
-    <div>
+    <div className="project">
       {projects.map((item) => (
         <ProjectCard
           key={item._id}

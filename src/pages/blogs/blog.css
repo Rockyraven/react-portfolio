@@ -1,0 +1,8 @@
+.blog-container {
+    display: flex;
+    height: 17rem;
+    width: 100%;
+}
+.lead-text{
+    margin-top: 1rem;
+}

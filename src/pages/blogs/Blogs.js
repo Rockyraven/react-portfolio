@@ -1,23 +1,17 @@
 import React from "react";
+import { BlogCard } from "../../component";
+import "./blog.css";
+import { blogs } from "../../db/blog-db";
 
 export const Blogs = () => {
+  console.log(blogs);
   return (
-    <main class="blogs-main main">
-      <section class="blogs container" id="blogs">
-        <h1 class="hero-text text-center">My Blogs</h1>
-        <div className="blog-container">
-          <div class="blog-post-container">
-            <h2 class="lead-text">Memoization In React</h2>
-            <img
-              class="project-card"
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1960&q=200"
-            />
-          </div>
-          <div className="blog-desc">
-            <h3>First Blog</h3>
-          </div>
-        </div>
-      </section>
-    </main>
+    
+     <section class="blogs container" id="blogs">
+      <h1 class="hero-text text-center">My Blogs</h1>
+      {blogs.map((item) => (
+        <BlogCard key={item._id} blogName={item.blogName} image={item.image} link={item.link} description={item.description}/>
+      ))}
+    </section>
   );
 };
