@@ -949,23 +949,6 @@ body.dark-theme .footer {
 /* START OF MEDIA MAX WIDTH 550px */
 
 @media screen and (max-width: 550px) {
-
-	nav.navbar ul.navlinks li a:hover {
-		background-color: var(--light-theme-background-color);
-		color: var(--light-theme-primary-color);
-	}
-
-	body.light-theme nav.navbar ul.navlinks li a:hover {
-		background-color: var(--light-theme-background-color);
-		color: var(--light-theme-primary-color);
-	}
-
-	body.dark-theme nav.navbar ul.navlinks li a:hover {
-		background-color: var(--dark-theme-background-color);
-		color: var(--dark-theme-primary-color);
-	}
-
-
 	.skills-container .skill-list {
 		grid-template-columns: repeat(3, 1fr);
 		gap: 0.75rem 1rem;
