@@ -203,7 +203,7 @@ export const HomePage = () => {
 									>My Projects</a
 								>
 								<a
-									href="https://www.github.com/bharati-21"
+									href="https://github.com/Rockyraven"
 									target="_blank"
 									class="btn btn-secondary"
 									>Browse GitHub
