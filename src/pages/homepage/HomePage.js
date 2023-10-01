@@ -21,7 +21,7 @@ export const HomePage = () => {
             Node.js and MongoDB.
           </p>
           <div class="buttons-container showcase-buttons flex-container align-center justify-center">
-            <a href="/" target="_blank" class="btn btn-primary">
+            <a href="https://drive.google.com/file/d/1cuPCNLHmbtSIynQdj6YNPqb4yeZyKK47/view?usp=drive_link" target="_blank" class="btn btn-primary">
               Download Resume
             </a>
             <a href="#about" class="btn btn-secondary">
